@@ -1,4 +1,7 @@
 nav{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
     background-color: #ffffff;
     margin: 2rem 8rem;
 }
@@ -7,6 +10,9 @@ nav a{
     font-weight: 600;
     text-decoration: none;
     color: #02304a;
+}
+.menu{
+    display: none;
 }
 ul{
     display: flex;
@@ -28,29 +34,25 @@ li{
 a:active{
     font-weight: 400;
 }
-li:first-child .logo:hover {
+.logo:hover {
     transform: scale(1.2);
     transition: 0.3s ease-in;
 }
-li:last-child{
+.link-border{
     margin-left: auto;
-}
-li:last-child a{
     border: 3px solid #02304a;
-    border-radius: 2rem;
-    padding: 1rem 2rem;
+    border-radius: 3rem;
+    padding: 1rem 0;
     text-decoration: none;
+    text-align: center;
 }
-li:last-child a:hover{
+.link-border:hover{
     border-color: #aaa;
     box-shadow: 0 0 10px #b4b4b4;
 }
 .flecha{
-    width: 5%;
+    width: 1rem;
 }
-.flecha-2{
-    width: 15%;
-}
-.flecha-3{
-    width: 20%;
+.flecha-1{
+    width: 2rem;
 }

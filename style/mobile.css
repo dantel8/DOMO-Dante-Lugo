@@ -1,0 +1,61 @@
+@media screen and (width < 768px){
+    /* header */
+    .menu{
+        display: block;
+        border: transparent;
+        background-color: transparent;
+        font-weight: 600;
+        font-size: 18pt;
+        margin-left: auto;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        width: 100%; 
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0rem;
+        padding: 1rem;
+        z-index: 1; 
+    }
+    ul,
+    .link-border{
+        display: none;
+    }
+    .logo{
+        display: block;
+    }
+    /* main */
+    /* conteiner-info */
+    .main{
+        padding-top: 85px;
+        flex-direction: column;
+    }
+    .container-info{
+        padding: 3rem;
+        width: 100%;
+    }
+    .container-info h1{
+        padding: 1rem 0 5rem 0;
+    }
+    .container-info a{
+        display: block;
+        text-align: center;
+    }
+    /* container-form */
+    .container-form{
+        width: 100%;
+        padding: 2rem;
+    }
+    .div-form{
+        gap: 1rem;
+    }
+    .active{
+        display: block;
+    }
+    .active li{
+        width: 400px;
+    }
+}

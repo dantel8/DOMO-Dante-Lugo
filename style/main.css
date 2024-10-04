@@ -21,7 +21,7 @@
 .container-info h1{
     font-size: 50pt;
     font-weight: 600;
-    padding: 1rem 0 8rem 0;
+    padding: 1rem 0 4rem 0;
     border-bottom: 2px solid #143850;
 }
 .container-info h1 span{
@@ -41,6 +41,7 @@
     padding: 1.5rem;
     color: #002d44;
     border-radius: 3rem;
+    text-decoration: none;
 }
 .container-info a:focus{
     background-color: #cecece;
