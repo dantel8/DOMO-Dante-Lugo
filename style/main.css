@@ -103,6 +103,7 @@ form button{
 form textarea{
     resize: vertical;
     height: 8rem;
+    min-height: 4rem;
 }
 :is(form input,  form textarea, form button):focus {
     background-color: #f5f5f5;
